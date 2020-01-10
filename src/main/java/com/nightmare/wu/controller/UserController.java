@@ -1,4 +1,4 @@
-package com.nightmare.wu.web;
+package com.nightmare.wu.controller;
 
 import com.nightmare.wu.dao.UserDao;
 import com.nightmare.wu.entity.User;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
-import java.util.Optional;
 
 /**
  * @Author: WuChang

@@ -1,4 +1,4 @@
-package com.nightmare.wu.web;
+package com.nightmare.wu.controller;
 
 import com.nightmare.wu.entity.ElevatorCar;
 import com.nightmare.wu.service.ElevatorCarService;
@@ -34,4 +34,22 @@ public class ElevatorCarController {
     public List<ElevatorCar> getElevatorCar(@PathVariable String regionId){
         return elevatorCarService.getElevatorCarByRegionId(regionId);
     }
+
+    /**
+     * @method: updateElevatorCar
+     * @description: 模拟电梯
+     * @author: WuChang
+     * @date: 2020-01-09 15:58
+     */
+    public boolean updateElevatorCar(){
+
+        String floorAddress= "21";
+        boolean action = false; // true 向上 false 向下
+
+
+
+        return false;
+    }
+
+
 }
